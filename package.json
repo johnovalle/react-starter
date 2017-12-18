@@ -5,11 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot",
-<<<<<<< HEAD
     "test": "mocha --reporter spec buildScripts/testSetup.js \"src/**/*.test.js\""
-=======
-    "test": "jest"
->>>>>>> a5a2f15efb03a3908045d1a836e9ea9895b21e94
   },
   "author": "",
   "license": "ISC",

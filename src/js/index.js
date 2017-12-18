@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HelloWorld from './components/HelloWorld';
+import TodoApp from './components/TodoApp';
 
-ReactDOM.render(<HelloWorld />, document.getElementById('app'));
-
-console.log('loaded_hot');
+ReactDOM.render(<TodoApp />, document.getElementById('app'));
